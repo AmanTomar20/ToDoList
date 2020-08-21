@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-heading">
+            <h2>ToDoList</h2>
+        </div>
+        <div class="nav-body">
+            <div class="nav-item <%if(path==''){%>active<%}%>"><a href="/">Home</a></div>
+            <div class="nav-item <%if(path=='work'){%>active<%}%>"><a href="/work">Work</a></div>
+            <div class="nav-item <%if(path=='about'){%>active<%}%>"><a href="/about">About</a></div>
+        </div>
+    
+    </nav>
